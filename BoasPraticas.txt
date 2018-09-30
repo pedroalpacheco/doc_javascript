@@ -1,0 +1,71 @@
+Registrar no NPM:
+
+npmjs.com
+
+#npm set init-author-name "PedroAlPacheco"
+
+npm set init-author-email "pedro.pacheco.a@gmail.com"
+
+npm set init-author-url "https://github.com/pedroalpacheco/"
+
+npm set init-license "MIT"
+
+=====================
+
+Instala Gitignore:
+
+npm install gitignore -g
+
+gitignore -types (lista tipos)
+
+gitignore Node (Para javascript)
+
+
+====================================
+
+Padões de código:
+
+https://github.com/airbnb/javascript
+
+Eslint
+
+https://eslint.org/docs/user-guide/getting-started
+
+npm install eslint --save-dev (Instalar somente no projeto e não globalmente)
+
+./node_modules/.bin/eslint --init
+
+===================================
+
+https://editorconfig.org/
+
+====================================
+
+Npm script
+
+package.jason
+
+"version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint source/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+==========================================
+
+Git hooks
+
+https://github.com/typicode/husky
+
+Scripts que roda antes de cada tarefa
+
+npm install husky --save-dev
+
+
+
+
+
+
+
